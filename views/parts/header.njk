@@ -1,48 +1,51 @@
 <header>
 
-    <div class="container">
+    <div class="container-menu">
         <a href="/">
             <div class="logo">
-                <h1>Logo</h1>
+                <img src="/assets/icon-box.png" alt="">
             </div>
         </a>
 
-        <form class="search" action="/products/search" method="GET">
-            <input type="text" name="filter" placeholder="Buscar por produtos..." {% if search.term %} value="{{search.term}}" {% endif %}>
-        </form>
-
-        <nav class="primary">
+        <nav class="container-menu-links">
             <ul>
                 <li>
-                    <a href="/">
-                        <i class="material-icons">add</i>
-                        Novo anúncio
+                    <a class="main-menu" href="/">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a class="main-menu" href="/">
+                        Sobre nós
                     </a>
                 </li>
                 <li class="dropdown-container">
                     <a href="/">
-                        <i class="material-icons">account_circle</i>
-                        Minha conta
+                        Produtos
                     </a>
 
                     <ul class="dropdown">
                         <li>
-                            <a href="/">Minha conta</a>
+                            <a href="/">SG360</a>
                         </li>
                         <li>
-                            <a href="/">Meus anúncios</a>
+                            <a href="/">SGA</a>
                         </li>
                         <li>
-                            <a href="/">Meus pedidos</a>
+                            <a href="/">SGT</a>
                         </li>
                         <li>
-                            <a href="/">Minhas vendas</a>
+                            <a href="/">SGO</a>
                         </li>
                     </ul>
-
-                <li >
-                    <a href="/">
-                        <i class="material-icons">shopping_cart</i>
+                <li>
+                    <a class="main-menu" href="/">
+                        Cases
+                    </a>
+                </li>
+                <li>
+                    <a class="main-menu" href="/">
+                        Contato
                     </a>
                 </li>
             </ul>

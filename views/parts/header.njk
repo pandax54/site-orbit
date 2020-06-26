@@ -1,0 +1,52 @@
+<header>
+
+    <div class="container">
+        <a href="/">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+        </a>
+
+        <form class="search" action="/products/search" method="GET">
+            <input type="text" name="filter" placeholder="Buscar por produtos..." {% if search.term %} value="{{search.term}}" {% endif %}>
+        </form>
+
+        <nav class="primary">
+            <ul>
+                <li>
+                    <a href="/">
+                        <i class="material-icons">add</i>
+                        Novo anúncio
+                    </a>
+                </li>
+                <li class="dropdown-container">
+                    <a href="/">
+                        <i class="material-icons">account_circle</i>
+                        Minha conta
+                    </a>
+
+                    <ul class="dropdown">
+                        <li>
+                            <a href="/">Minha conta</a>
+                        </li>
+                        <li>
+                            <a href="/">Meus anúncios</a>
+                        </li>
+                        <li>
+                            <a href="/">Meus pedidos</a>
+                        </li>
+                        <li>
+                            <a href="/">Minhas vendas</a>
+                        </li>
+                    </ul>
+
+                <li >
+                    <a href="/">
+                        <i class="material-icons">shopping_cart</i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </div>
+</header>

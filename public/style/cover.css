@@ -96,11 +96,13 @@ div.home.info a.button {
     .container.home.cover {
         background-color: var(--bg-blue);
         height: auto;
+        width: 100%;
+        border: 2px solid var(--bg-blue);
     }
 
     .home.img-cover {
         /* position: relative; */
-        background-image: url('../assets/cover-image1.png');
+        background-image: none;
         /* width: 50%; */
         height: 800px;
         /* background-size: 1100px auto; */

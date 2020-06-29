@@ -22,7 +22,7 @@ section.container.about {
 
 .about.info {
     padding-top: 120px;
-    width: 500px;
+    max-width: 500px;
 }
 
 
@@ -47,7 +47,7 @@ section.container.about {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 25px;
     letter-spacing: 0.962286px;
     margin-top: 30px;
@@ -57,7 +57,7 @@ section.container.about {
 
 .about.img-about {
     /* position: relative; */
-    background-image: url('../assets/about-img.png');
+    /* background-image: url('../assets/about-img.png'); */
     width: 50%;
     height: 800px;
     background-size: 800px auto;
@@ -68,14 +68,33 @@ section.container.about {
 
  /* SMALL SCREENS AND MOBILE  */
 
- @media only screen and (max-width: 1400px) {
+ @media only screen and (max-width: 1200px) {
+    section.container.about {
+        padding-top: 50px;
+        flex-direction: column-reverse;
+        height: auto;
+        padding-bottom: 30px;
+    }
     .about.img-about {
         /* position: relative; */
-        background-image: url('../assets/about-img.png');
-        width: 50%;
+        /* background-image: url('../assets/about-img.png'); */
+        width: auto;
         height: auto;
-        background-size: 100% auto;
-        background-repeat: no-repeat;
-        background-position: 100px 200px;
+        margin: 50px auto;
+
+    }
+
+
+    .about-content {
+        position: relative;
+        width: 70%;
+        margin: 0 auto;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .about.info {
+        padding-top: 120px;
+        max-width: 500px;
     }
   }

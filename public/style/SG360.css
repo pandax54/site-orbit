@@ -45,7 +45,7 @@ section.container .SG360{
     display: block;
     width: 90%;
     margin: 0 auto;
-    margin-top: -160px;
+    margin-top: -200px;
 
 }
 
@@ -140,6 +140,11 @@ section.container .SG360{
     .SG360.features-content {
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .SG360-cover img {
+        margin-top: 50px;
+    
     }
 
   }

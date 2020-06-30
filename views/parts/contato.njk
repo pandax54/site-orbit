@@ -1,0 +1,58 @@
+<section class="container contact">
+    {# <h3>My Google Maps Demo</h3> #}
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <div class="contact-div">
+        <div class="contact-form">
+            <form action="">
+                <h1>Agenda uma demonstração</h1>
+                <div class="customer-info">
+                    <input placeholder="Nome" name="nome" type="text">
+                    <input placeholder="E-mail" name="email" type="email">
+                </div>
+                <input placeholder="Empresa" name="empresa" type="text">
+                <textarea placeholder="Mensagem" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                <button type="submit">ENVIAR</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <h1>Nosso contato</h1>
+            <div class="address">
+                <h2>Endereço</h2>
+                <p>29 East 19th St.</p>
+                <p>Floor 3</p>
+                <p>New York, NY, 10003</p>
+            </div>
+            <div class="telephone">
+                <h2>Telefone</h2>
+                <p>+55 27 398-8084</p>
+            </div>
+            <div class="email-info">
+                <h2>Email</h2>
+                <p>admin@orbitgeo.com</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# <script>
+    // Initialize and add the map
+    function initMap() {
+        // The location of Uluru
+        var uluru = {
+            lat: -25.344,
+            lng: 131.036
+        };
+        // The map, centered at Uluru
+        var map = new google
+            .maps
+            .Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+            });
+        // The marker, positioned at Uluru
+        var marker = new google
+            .maps
+            .Marker({position: uluru, map: map});
+    }
+</script> #}

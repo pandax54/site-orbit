@@ -78,3 +78,11 @@ footer p {
     color: #FFFFFF;
     padding: 20px 30px;
 }
+
+
+@media (max-width: 850px){
+    .footer-menu {
+        display: none;
+ 
+    }
+}

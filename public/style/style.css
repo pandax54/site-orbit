@@ -7,7 +7,7 @@
     --title: #2D3436;
     --text-gray: #8197b0;
     --text-lightgray: #a0bdda;
-    --bg-blue: #253B52;
+    --bg-blue: hsl(211, 38%, 23%);
     --bg-black: #1D2F36;
     --bg-white: #FFFFFF;
     --gr-orange: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
@@ -23,7 +23,8 @@
     text-decoration: none;
     list-style-type: none;
     border: none;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 body, html {

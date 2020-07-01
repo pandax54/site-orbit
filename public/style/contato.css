@@ -18,8 +18,8 @@
   }
 
   .contact-div h1 {
-    width: 561.93px;
-    height: 51.08px;
+    /* width: 561.93px; */
+    /* height: 51.08px; */
   
     font-family: Montserrat;
     font-style: normal;
@@ -33,7 +33,7 @@
   }
 
   .contact-div h2 {
-    width: 89.71px;
+    /* width: 89.71px; */
     height: 19.94px;
     
     font-family: Montserrat;
@@ -134,5 +134,28 @@ textarea {
     /* flex-direction: column; */
     margin-left: 30px;
 
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-div {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-info h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .contact-info .address {
+    margin-top: 0;
+    padding-top: 0;
+  }
+  .contact-info {
+    width: 100%;
+  }
 }
 

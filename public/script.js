@@ -1,15 +1,25 @@
-// https://developers.google.com/maps/documentation/javascript/adding-a-google-map
-// Initialize and add the map
-// function initMap() {
-//     // The location of Uluru
-//     var uluru = { lat: -20.3159415, lng: -40.291667 };
-//     // The map, centered at Uluru
-//     var map = new google.maps.Map(
-//         document.getElementById('map'), { zoom: 4, center: uluru });
-//     // The marker, positioned at Uluru
-//     var marker = new google.maps.Marker({ position: uluru, map: map });
+// =================== MENU BURGER 
+$(".menu-1").click(function () {
+    $(this).toggleClass("open");
+});
 
-// }
+// document.getElementById('toggle').click(function (e) {
+//     e.target.toggleClass("open");
+// })
+
+const checkboxList = document.querySelectorAll("input[type='checkbox']")
+
+console.log(checkboxList)
+console.log(checkboxList[1].checked)
+
+for (let checkbox in checkboxList) {
+    console.log('this is the ele', check.checked)
+}
+
+
+
+
+// ================ MAP ============================
 
 function initMap() {
     // Map options
@@ -27,22 +37,6 @@ function initMap() {
         addMarker({ coords: event.latLng });
     });
 
-    /*
-    // Add marker
-    var marker = new google.maps.Marker({
-      position:{lat:42.4668,lng:-70.9495},
-      map:map,
-      icon:'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png'
-    });
-
-    var infoWindow = new google.maps.InfoWindow({
-      content:'<h1>Lynn MA</h1>'
-    });
-
-    marker.addListener('click', function(){
-      infoWindow.open(map, marker);
-    });
-    */
 
     // Array of markers
     var markers = [

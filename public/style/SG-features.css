@@ -17,7 +17,7 @@ section.container.SG360-features {
     font-weight: 800;
     font-size: 48px;
     line-height: 120%;
-
+    max-width: 800px;
     letter-spacing: -0.02em;
     color: var(--bg-white);
 
@@ -27,57 +27,27 @@ section.container.SG360-features {
 }
 
 .service.SG {
-    width: 90%;
-    box-sizing: border-box;
+    max-width: 90%;
     display: flex;
     flex-direction: row-reverse;
-    /* width: 50%; */
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 80px;
+}
 
+.service.SG .title-icon h1 {
+    max-width: 400px;
 }
 
 .service.SG.left {
-    display: flex;
     flex-direction: row;
-    /* width: 50%; */
-    justify-content:center;
-    margin-bottom: 80px;
-
-}
-
-.service.SG .SG-img.left img {
-    margin-right: 150px;
-    margin-left: 0;
+    justify-content: space-between;
 }
 
 .service.SG .SG-img img {
-    width: 466px;
-    height: 336px;
-    margin-left: 80px;
-}
-
-.SG-content.SG {
-    display: flex;
-    flex-direction: column;
-    max-width: 500px;
-    align-content: center;
-    justify-content: center;
-}
-
-.SG-content.SG.left {
-    margin-right: 100px;
-}
-
-.title-icon {
-    display: flex;
-    margin-left: -80px;
-}
-
-.title-icon img {
-    width: 60px;
-    height: 64px;
-    margin-right: 15px;
+    margin-right: 80px;
+    margin-left: 0;
+    width: 90%;
 }
 
 .container.SG360-features  .SG-content.SG h1 {
@@ -103,7 +73,8 @@ section.container.SG360-features {
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
-
+    width: 90%;
+    max-width: 800px;
     letter-spacing: 0.15px;
     color: var(--text-gray);
     margin-bottom: 15px;
@@ -116,7 +87,58 @@ section.container.SG360-features {
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
+    letter-spacing: 0.25px;
+    text-align: center;
+    color: #FFFFFF;
+    vertical-align: middle;
+    padding: 20px 0;
+    opacity: 0.5;
+}
+
+.SG-content.SG div.links a:hover {
+    opacity: 1;
+}
+
+
+
+/* .service.SG.left {
+    display: flex;
+    flex-direction: row;
+
+    justify-content:center;
+    margin-bottom: 80px;
+}
+
+.SG-content.SG {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    align-content: center;
+    justify-content: center;
+}
+
+.SG-content.SG.left {
+    margin-right: 100px;
+}
+
+.title-icon {
+    display: flex;
+    margin-left: -80px;
+}
+
+.title-icon img {
+    width: 60px;
+    height: 64px;
+    margin-right: 15px;
+}
+
+.SG-content.SG div.links a {
+    position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
     letter-spacing: 0.25px;
     text-align: center;
     color: #FFFFFF;
@@ -128,27 +150,22 @@ section.container.SG360-features {
     display: inline-block;
     padding-top: 10px;
     padding-left: 5px;
-}
+} */
 
-@media only screen and (max-width: 1080px) {
-    .service.SG {
-        display: flex;
-        flex-direction: column;
-        /* width: 50%; */
-        justify-content:center;
-    
-    }
+@media only screen and (max-width: 900px) {
 
     .service.SG .SG-img img {
         display: none;
     }
 
-    .SG-content.SG.left {
-        align-self: flex-end;
-        justify-self: self-end;
-        margin-left: -140px;
-        width: 90%;
-        justify-content: center;
+    .container.SG360-features h1.main-feature-title {
+        text-align: center;
+    }
+
+
+    .services {
+        margin: 60px 10px;
+        padding: 0;
     }
 
   }

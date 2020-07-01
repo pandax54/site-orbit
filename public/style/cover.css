@@ -112,14 +112,30 @@ div.home.info a.button {
   }
 
   @media (max-width: 850px){
-    div.home.info a.button {
-        width: 80%;
-        padding: 40px 30px ;
-        /* height: 70px; */
-        font-size: 24px;
+    .home.info {
+        margin: 0 10px;
+        max-width: 500px;
     }
+    .home.info h1 {
+        font-size: 28px;
+    }
+    div.home.info a.button {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 30px ;
+        height: 70px;
+        font-size: 22px;
+        overflow-y: hidden;
+    }
+    
     .container.home.cover {
         padding-bottom: 50px;
+    }
+
+    div.home.img-cover{
+        display: none;
     }
   }
   

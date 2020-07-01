@@ -110,3 +110,16 @@ div.home.info a.button {
         /* background-position: 50px 80px; */
     }
   }
+
+  @media (max-width: 850px){
+    div.home.info a.button {
+        width: 80%;
+        padding: 40px 30px ;
+        /* height: 70px; */
+        font-size: 24px;
+    }
+    .container.home.cover {
+        padding-bottom: 50px;
+    }
+  }
+  

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
         {% block head %}
             <title>Launchstore</title>
         {% endblock %}
@@ -9,7 +12,8 @@
     </head>
     <body>
 
-        {%include "parts/header.njk" %}
+        {# {%include "parts/header.njk" %} #}
+        {%include "parts/header-responsive.njk" %}
 
         <section class="main">
             {% block content %}{% endblock %}

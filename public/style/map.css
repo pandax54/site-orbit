@@ -1,0 +1,88 @@
+/* body {
+  font-family: "Montserrat", sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background: #111;
+  color: white;
+  font-size: 9px;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+} */
+section.container-map {
+  position: relative;
+  width: 90%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.map {
+  /* position: absolute; */
+  position: relative;
+  width: 800px;
+  height: 370px;
+  border: 1px solid #0083b2;
+  margin: 40px auto;
+  /* left: 217px; */
+  /* top: 15px; */
+  /* background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/28963/map4-opt.jpg) top left no-repeat; */
+  /* background-size: cover; */
+  /* opacity: 0.85; */
+}
+
+.box-info-map {
+  position: relative;
+  position: absolute;
+  top: 30px;
+  left: 415px;
+}
+
+.dialog-text {
+  position: absolute;
+  text-align: right;
+  top: 30px;
+  left: 0;
+  width: 350px;
+  height: 270px;
+  /* background-color: #333; */
+  padding: 30px 20px;
+}
+
+.main {
+  font-size: 11px;
+  /* line-height: 0.5em; */
+  text-transform: uppercase;
+  letter-spacing: 0.22em;
+  color: white;
+}
+
+.main .dialog-text h1.main {
+  font-size: 16px;
+  margin-right: 20px;
+  /* padding-right: 40px; */
+
+}
+
+
+.sent-main {
+  font-size: 13px;
+  margin: 4px 0;
+}
+
+.dialog-text .details {
+  margin: 20px 20px -8px;
+  line-height: 2em;
+  padding: 0;
+  letter-spacing: 0.17em;
+}
+
+.gr {
+  color: #777777;
+}
+
+.marker-dialog, .marker-touch {
+  width: 350px;
+  /* position: absolute; */
+  left: 440px;
+  top: 50px;
+  cursor: pointer;
+}

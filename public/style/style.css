@@ -38,3 +38,7 @@ body {
     flex-direction: column;
     /* justify-content: space-between; */
 }
+
+section.main {
+    height: auto;
+}

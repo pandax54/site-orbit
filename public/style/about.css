@@ -51,7 +51,7 @@ section.container.about {
     line-height: 25px;
     letter-spacing: 0.962286px;
     margin-top: 30px;
-
+ 
 }
 
 
@@ -101,5 +101,9 @@ section.container.about {
         line-height: 36px;
      
     
+    }
+
+    .about .img-about img {
+        width: 90%;
     }
   }

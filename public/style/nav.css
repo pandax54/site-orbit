@@ -112,7 +112,7 @@ nav.primary > ul > li > a > i{
 ul.dropdown {
     position: absolute;
     top: 32px;
-    left: 0;
+    left: 60px;
 
     margin-top: 4px;
     padding: 0 0;

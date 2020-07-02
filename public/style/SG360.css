@@ -52,7 +52,7 @@ section.container .SG360{
 
 }
 
-.SG360-features {
+.SG360-qualities {
     width: 90%;
     padding: 20px 30px;
     margin: 0 auto;
@@ -60,7 +60,7 @@ section.container .SG360{
 
 }
 
-.SG360-features .SG360.features-title h1 {   
+.SG360-qualities .SG360.qualities-title h1 {   
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -72,7 +72,7 @@ section.container .SG360{
     color: #2D3436;
 }
 
-.SG360-features .SG360.features-title p {
+.SG360-qualities .SG360.qualities-title p {
     font-family: Open Sans;
     font-style: normal;
     font-weight: normal;
@@ -88,7 +88,7 @@ section.container .SG360{
 
 }
 
-.SG360.features-content {
+.SG360.qualities-content {
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +96,7 @@ section.container .SG360{
     margin-bottom: 80px;
 }
 
-.SG360.features-content .feature-item {
+.SG360.qualities-content .qualities-item {
     padding-right: 5px;
     display: flex;
     flex-direction: column;
@@ -105,13 +105,13 @@ section.container .SG360{
     margin-right: 30px;
 }
 
-.SG360.features-content .feature-item img {
+.SG360.qualities-content .qualities-item img {
     margin-left: -20px;
     margin-bottom: -20px;
     width: 40%;
 }
 
-.SG360.features-content .feature-item .item-title {
+.SG360.qualities-content .qualities-item .item-title {
     margin-bottom: 15px;
 
     font-family: Roboto;
@@ -126,7 +126,7 @@ section.container .SG360{
 
 }
 
-.SG360.features-content .feature-item .item-text {
+.SG360.qualities-content .qualities-item .item-text {
 
     width: 90%;
 
@@ -140,7 +140,7 @@ section.container .SG360{
 }
 
 @media only screen and (max-width: 800px) {
-    .SG360.features-content {
+    .SG360.qualities-content {
         /* display: grid; */
         /* grid-template-columns: 1fr 1fr; */
         display: flex;
@@ -149,7 +149,7 @@ section.container .SG360{
         align-items: center;
     }
 
-    .SG360-features .SG360.features-title {
+    .SG360-qualities .SG360.qualities-title {
         display: block;
         margin: 30px auto;
         padding-left: 20px;
@@ -161,7 +161,7 @@ section.container .SG360{
     
     }
 
-    .SG360-features {
+    .SG360-qualities {
         width: 90%;
         padding: 0;
 
@@ -172,7 +172,7 @@ section.container .SG360{
         max-width: 80%;  
     }
 
-    .SG360.features-content .feature-item {
+    .SG360.qualities-content .qualities-item {
         margin: 0;
     }
 

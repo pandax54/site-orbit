@@ -1,48 +1,33 @@
-#menuToggle
-{
+header.mobile-menu {
   display: none;
 }
 
-@media (max-width: 850px){
-
-  #menuToggle
+#menuToggle
 {
-  display: block;
+  display: none;
   position: relative;
-  top: 50px;
-  left: 50px;
+  /* top: 50px; */
+  /* left: 50px; */
+  top: 0;
+  left: 0;
   
-  z-index: 3;
+  z-index: 1;
   
   -webkit-user-select: none;
   user-select: none;
 }
 
-#menuToggle a li
+#menuToggle a
 {
   text-decoration: none;
-  /* color: #232323; */
-  color: #dedede;
-  opacity: 0.5;
+  color: #232323;
+  
   transition: color 0.3s ease;
-  font-size: 24px;
-  padding: 20px 0;
 }
 
-#menuToggle a.link-sg360 li {
-  /* color: var(--bg-blue); */
-  color: white;
-  opacity: 0.7;
-}
-
-#menuToggle a:hover li
+#menuToggle a:hover
 {
-  opacity: 1;
-  /* color: tomato; */
-}
-
-#menuToggle a.link-sg360:hover li {
-  opacity: 1;
+  color: tomato;
 }
 
 
@@ -52,12 +37,13 @@
   width: 40px;
   height: 32px;
   position: absolute;
-  top: -7px;
-  left: -5px;
+  background-color: blueviolet;
+  top: 45px;
+  left: 46px;
   
   cursor: pointer;
   
-  opacity: 0; /* hide this */
+  opacity: 1; /* hide this */
   z-index: 2; /* and place it over the hamburger */
   
   -webkit-touch-callout: none;
@@ -74,11 +60,10 @@
   margin-bottom: 5px;
   position: relative;
   
-  /* background: #cdcdcd; */
-  background-color: var(--bg-blue);
+  background: #cdcdcd;
   border-radius: 3px;
   
-  z-index: 1;
+  z-index: 3;
   
   transform-origin: 4px 0px;
   
@@ -105,8 +90,7 @@
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  /* background: #232323; */
-  background: #555;
+  background: #232323;
 }
 
 /*
@@ -138,8 +122,7 @@
   padding: 50px;
   padding-top: 125px;
   
-  /* background: #ededed;  */
-  background-color: hsl(211, 38%, 15%);
+  background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -148,11 +131,7 @@
   transform: translate(-100%, 0);
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  z-index: 1;
 }
 
 #menu li
@@ -168,4 +147,13 @@
 {
   transform: none;
 }
+
+
+@media (max-width: 850px){
+
+  header.mobile-menu {
+    display: block;
+    /* height: 100px; */
+  }
+
 }

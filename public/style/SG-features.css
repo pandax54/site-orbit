@@ -168,4 +168,15 @@ section.container.SG360-features {
         padding: 0;
     }
 
+    .container.SG360-features  .SG-content.SG h1 {
+        font-size: 24px;
+
+ 
+    }
+
+    .container.SG360-features  .SG-content.SG p {
+        font-size: 16px;
+
+    }
+
   }

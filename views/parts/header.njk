@@ -1,23 +1,17 @@
-<header>
-    {% include "parts/toggle.njk" %}
-    <div class="container-menu">
-        <a href="/">
-            <div class="logo">
-                <img src="/assets/icon-box.png" alt="">
-            </div>
-        </a>
-
-        <nav class="container-menu-links">
-            <ul>
+<header class="desktop-menu">
+    <nav class="main-menu">
+        <nav class="menu-desktop">
+            <a href="/">
+                <div class="logo">
+                    <img src="/assets/icon-box.png" alt="">
+                </div>
+            </a>
+            <ul class="menu-desktop-links">
                 <li>
-                    <a class="main-menu" href="/">
-                        Home
-                    </a>
+                    <a href="">Home</a>
                 </li>
                 <li>
-                    <a class="main-menu" href="/">
-                        Sobre nós
-                    </a>
+                    <a href="#about">Sobre nós</a>
                 </li>
                 <li class="dropdown-container">
                     <a href="/">
@@ -39,17 +33,14 @@
                         </li>
                     </ul>
                 <li>
-                    <a class="main-menu" href="/">
-                        Cases
-                    </a>
+                <li>
+                    <a href="#cases">Cases</a>
                 </li>
                 <li>
-                    <a class="main-menu" href="/">
-                        Contato
-                    </a>
+                    <a href="#contact">Contato</a>
                 </li>
             </ul>
         </nav>
 
-    </div>
+    </nav>
 </header>

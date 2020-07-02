@@ -1,20 +1,20 @@
 // =================== MENU BURGER 
-$(".menu-1").click(function () {
-    $(this).toggleClass("open");
-});
+// $(".menu-1").click(function () {
+//     $(this).toggleClass("open");
+// });
 
 // document.getElementById('toggle').click(function (e) {
 //     e.target.toggleClass("open");
 // })
 
-const checkboxList = document.querySelectorAll("input[type='checkbox']")
+// const checkboxList = document.querySelectorAll("input[type='checkbox']")
 
-console.log(checkboxList)
-console.log(checkboxList[1].checked)
+// console.log(checkboxList)
+// console.log(checkboxList[1].checked)
 
-for (let checkbox in checkboxList) {
-    console.log('this is the ele', check.checked)
-}
+// for (let checkbox in checkboxList) {
+//     console.log('this is the ele', check.checked)
+// }
 
 
 

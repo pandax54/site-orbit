@@ -39,7 +39,8 @@ section.container .SG360{
     text-align: center;
     color: var(--title);
     opacity: 0.8;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
+    
 }
 
 
@@ -167,7 +168,12 @@ section.container .SG360{
     
     }
     .SG360-cover p {
-        font-size: 22px;    
+        font-size: 18px;  
+        max-width: 80%;  
+    }
+
+    .SG360.features-content .feature-item {
+        margin: 0;
     }
 
   }

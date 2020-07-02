@@ -2,8 +2,10 @@
 .container.home.cover {
     background-color: var(--bg-blue);
     height: 90vh;
+    position: relative;
+    z-index: -1;
 }
-
+ 
 .home-content {
     position: relative;
     width: 100%;
@@ -15,7 +17,7 @@
 
 .home.info {
     margin-left: 140px;
-    padding-top: 120px;
+    /* padding-top: 40px; */
 }
 
 
@@ -31,6 +33,8 @@
     background: -webkit-linear-gradient(0deg, #F6D365 0%, #FDA085 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: auto;
+    overflow-y: hidden;
 }
 
 div.home.info h3 {

@@ -12,9 +12,7 @@
         {% include "parts/styles.njk" %}
     </head>
     <body>
-
-        {%include "parts/header-responsive.njk" %}
-
+        {% include "parts/nav.njk" %}
         <section class="main">
             {% block content %}{% endblock %}
         </section>

@@ -1,0 +1,178 @@
+/* HEADER  */
+ 
+header {
+    background-color: black;
+    background-color: var(--bg-blue);
+    color: white;
+    width: 100%;
+    padding:  32px 0;
+    text-align: center;
+    overflow: visible;
+    overflow-y: visible;
+    overflow-x: visible;
+
+}
+header div.container {
+    /* display: grid; */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    /* grid-template-columns: 220px 1fr 280px; */
+    /* align-items: center; */
+    /* grid-gap: 24px; */
+}
+
+header div.container a {
+    justify-self: start;
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+
+header div.container a.logo div.logo img {
+    position: relative;
+    margin-left: 30px;
+    z-index: 4;
+}
+
+header div.container a.logo div.logo::before {
+    position: absolute;
+    display: block;
+    padding-left: 30px;
+    background-color: white;
+    width: 50px;
+    height: 75px;
+    content: '';
+    top: 32px;
+    left: 48px;
+    border-radius: 50%;
+    opacity: 0.2;
+    margin-left: 30px;
+}
+
+/* PRIMARY MENU */
+nav.primary {
+    width: 60%;
+    margin-right: 30px;
+}
+nav.primary > ul {
+    display:flex;
+    justify-content: center;
+}
+
+nav.primary > ul > li {
+    margin-left: 10px;
+}
+
+nav.primary > ul > li > a {
+    display:flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+    /* pra usar no hover, assim o dropdown menu nao some rapido */
+    height: 48px;
+
+    font-family: Inter;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-left: 30px;
+    opacity: 0.6;
+
+    transition: 200ms;
+}
+
+nav.primary > ul > li > a:hover{
+    color: var(--primary-color);
+    opacity: 1;
+}
+
+nav.primary > ul > li > a > i{
+    margin-right: 8px;
+}
+
+
+
+/* DROPDOWN MENU  */
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container:hover .dropdown {
+    top: 40px;
+    opacity: 1;
+    visibility: initial;
+}
+
+
+ul.dropdown {
+    position: absolute;
+    top: 32px;
+    left: 0;
+
+    margin-top: 4px;
+    padding: 0 0;
+
+    width: 180px;
+
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px -4px rgba(0,0,0,.6);
+
+    opacity: 0;
+
+    visibility: hidden;
+    
+    transition: all 200ms;
+
+    z-index: 1;
+
+}
+
+ul.dropdown li a,
+ul.dropdown li button {
+    font-size: 16px;
+    color: #333;
+
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    height: 48px;
+
+    padding: 0 16px;
+    border-radius: 4px;
+}
+
+ul.dropdown li:hover,
+ul.dropdown li:hover button {
+    background-color: #eee;
+}
+
+/*actions*/
+.actions.dropdown-container {
+    display: flex;
+    align-items: center;
+    height: 48px;
+    cursor: pointer;
+    padding: 0 16px;
+}
+.actions.dropdown-container:hover {
+    background-color: white;
+}
+
+@media only screen and (max-width: 920px) {
+    header div.container {
+        display: none;
+    }
+
+}
+

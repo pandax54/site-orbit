@@ -27,6 +27,8 @@ section.container .SG360{
 
 .SG360-cover p {
     margin: 0 auto;
+    display: block;
+    width: 80%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -45,7 +47,7 @@ section.container .SG360{
     display: block;
     width: 90%;
     margin: 0 auto;
-    margin-top: -160px;
+    margin-top: -200px;
 
 }
 
@@ -138,8 +140,34 @@ section.container .SG360{
 
 @media only screen and (max-width: 800px) {
     .SG360.features-content {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        /* display: grid; */
+        /* grid-template-columns: 1fr 1fr; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .SG360-features .SG360.features-title {
+        display: block;
+        margin: 30px auto;
+        padding-left: 20px;
+    }
+
+    .SG360-cover img {
+        margin-top: 50px;
+        display: none;
+    
+    }
+
+    .SG360-features {
+        width: 90%;
+        padding: 0;
+
+    
+    }
+    .SG360-cover p {
+        font-size: 22px;    
     }
 
   }

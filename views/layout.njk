@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
         {% block head %}
             <title>Launchstore</title>
         {% endblock %}
@@ -9,7 +13,7 @@
     </head>
     <body>
 
-        {%include "parts/header.njk" %}
+        {%include "parts/header-responsive.njk" %}
 
         <section class="main">
             {% block content %}{% endblock %}
@@ -17,7 +21,13 @@
 
         {%include "parts/footer.njk" %}
 
-        {% block script %}{% endblock %}
+        {% block script %}
+            <script src="script.js"></script>
+            {# <script src="map.js"></script> #}
+            <!--Load the API from the specified URL * The async attribute allows the browser to render the page while the API loads * The key parameter will contain your own API key (which is not needed for this tutorial) * The callback parameter executes the initMap() function -->
+            <script async="async" defer="defer" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo7l9i33lsmxXUdEbcTV3xoE6V_tvEbl0&callback=initMap"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        {% endblock %}
 
     </body>
 </html>

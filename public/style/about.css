@@ -97,7 +97,7 @@ section.container.about {
         max-width: 500px;
     }
     .about.info p {
-        font-size: 24px;
+        font-size: 16px;
         line-height: 36px;
      
     
@@ -107,3 +107,9 @@ section.container.about {
         width: 90%;
     }
   }
+
+  @media (max-width: 850px){
+    div.about.img-about {
+        display: none;
+    }
+}

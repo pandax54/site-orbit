@@ -10,5 +10,13 @@ routes.get('/', function (req, res) {
     return res.render('index')
 })
 
+routes.get('/sga', function (req, res) {
+    return res.render('SG360/SGA')
+})
+
+routes.get('/test', function (req, res) {
+    return res.render('index-test')
+})
+
 
 module.exports = routes;

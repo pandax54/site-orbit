@@ -17,6 +17,12 @@ routes.get('/products', function (req, res) {
 routes.get('/sga', function (req, res) {
     return res.render('SG360/SGA')
 })
+routes.get('/sgt', function (req, res) {
+    return res.render('SG360/SGT')
+})
+routes.get('/sgo', function (req, res) {
+    return res.render('SG360/SG0')
+})
 
 
 routes.get('/test', function (req, res) {

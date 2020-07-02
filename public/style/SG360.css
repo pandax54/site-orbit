@@ -89,6 +89,8 @@ section.container .SG360{
     margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .SG360.features-content .feature-item {
@@ -128,7 +130,7 @@ section.container .SG360{
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 26px;
 
     color: #2D3436;
@@ -139,6 +141,5 @@ section.container .SG360{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-
 
   }

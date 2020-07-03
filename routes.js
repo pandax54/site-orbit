@@ -24,6 +24,10 @@ routes.get('/sgo', function (req, res) {
     return res.render('SG360/SG0')
 })
 
+routes.get('/contact', function (req, res) {
+    return res.render('contact')
+})
+
 
 routes.get('/test', function (req, res) {
     return res.render('index-test')

@@ -13,6 +13,9 @@
     --gr-orange: linear-gradient(90deg, #F6D365 0%, #FDA085 100%);
     --gr-green: linear-gradient(90deg, #CFF37D 0%, #7DE88C 100%);
     --gr-blue: linear-gradient(90deg, #77A7BC 0%, #1D8989 100%);
+    --primary-color: rgba(13, 110, 139, 1);
+    --overlay-color: rgba(24, 39, 51 , 1);
+    --menu-speed: 0.75s;
 }
 
 * {

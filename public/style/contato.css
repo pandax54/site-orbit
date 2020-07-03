@@ -1,6 +1,7 @@
 .container.contact {
     width: 85%;
     margin: 50px auto;
+    overflow-x: hidden;
 }
 
 #map {
@@ -14,6 +15,7 @@
     justify-content: space-between;
     margin-top: 120px;
     flex-wrap: wrap;
+    
 
   }
 
@@ -136,13 +138,13 @@ textarea {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 920px) {
   .contact-div {
     display: flex;
     flex-direction: column;
   }
   .contact-form {
-    width: 100%;
+    width: 90%;
   }
 
   .contact-info h1 {
@@ -155,7 +157,7 @@ textarea {
     padding-top: 0;
   }
   .contact-info {
-    width: 100%;
+    width: 90%;
   }
 }
 

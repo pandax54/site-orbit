@@ -45,10 +45,59 @@ section.container .SG360{
 
 
 .SG360-cover img {
-    display: block;
-    width: 90%;
+    /* display: block; */
+    width: 80%;
     margin: 0 auto;
-    margin-top: -200px;
+    margin-top: 100px;
+    z-index: -1;
+
+}
+
+div.saiba-mais-button {
+    min-width: 388px;
+    width: 388px;
+    margin: 50px auto;
+}
+
+a.button.saiba-mais {
+    width: 100%;
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border-radius: 99px;
+    z-index: 1;
+}
+
+a.button.saiba-mais:hover {
+    cursor: pointer;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.15px;
+    color: white;
+    border: 1px solid var(--primary-blue);
+    background-color: var(--primary-blue);
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border-radius: 99px;
+}
+
+span.arrow {
+    padding-left: 10px;
+}
+
+a.button.saiba-mais:hover span.arrow svg path {
+    fill: white;
 
 }
 

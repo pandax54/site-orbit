@@ -1,24 +1,16 @@
-/* body {
-  font-family: "Montserrat", sans-serif;
-  width: 100vw;
-  height: 100vh;
-  background: #111;
-  color: white;
-  font-size: 9px;
-  letter-spacing: 0.22em;
-  text-transform: uppercase;
-} */
+
 section.container-map {
   position: relative;
-  width: 90%;
+  width: 80%;
   height: auto;
   margin-bottom: 20px;
+  overflow-x: hidden;
 }
 
 .map {
   /* position: absolute; */
   position: relative;
-  width: 800px;
+  max-width: 800px;
   height: 370px;
   border: 1px solid #0083b2;
   margin: 40px auto;

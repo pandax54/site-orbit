@@ -52,12 +52,13 @@ header div.container a.logo div.logo::before {
 
 /* PRIMARY MENU */
 nav.primary {
-    width: 70%;
-    margin-right: 30px;
+    width: 100%;
+    margin-right: 35px;
 }
 nav.primary > ul {
     display:flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: flex-end;
 }
 
 nav.primary > ul > li {
@@ -100,14 +101,23 @@ li.button-nav {
     justify-content: center;
 }
 
+
 li.button-nav a.button-nav {
     padding: 0.8rem 1.5rem;
     word-break: keep-all;
     min-width: 262px;
     /* padding: 30px 20px; */
     border-radius: 20px;
-    background-color: var(--bg-black);
+    /* background-color: var(--bg-black); */
+    background-color: white;
     opacity: 0.8;
+    color: var(--bg-blue);
+    /* margin-left: 60px; */
+}
+
+li.button-nav:hover a.button-nav {
+    color: var(--bg-blue);
+    font-weight: bold;
 }
 
 
@@ -185,7 +195,7 @@ ul.dropdown li:hover button {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 950px) {
     header div.container {
         display: none;
     }

@@ -21,7 +21,7 @@ routes.get('/sgt', function (req, res) {
     return res.render('SG360/SGT')
 })
 routes.get('/sgo', function (req, res) {
-    return res.render('SG360/SG0')
+    return res.render('SG360/SGO')
 })
 
 routes.get('/contact', function (req, res) {

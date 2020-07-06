@@ -61,6 +61,7 @@ div.saiba-mais-button {
 
 a.button.saiba-mais {
     width: 100%;
+    min-width: 380px;
     cursor: pointer;
     font-family: Roboto;
     font-style: normal;
@@ -93,7 +94,7 @@ a.button.saiba-mais:hover {
 }
 
 span.arrow {
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 a.button.saiba-mais:hover span.arrow svg path {

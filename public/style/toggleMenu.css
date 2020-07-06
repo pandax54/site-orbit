@@ -45,6 +45,10 @@
 
 }
 
+.button-nav.toggleMenu {
+  padding-top: calc(60px - 45px/2);
+}
+
 /* Hamburger Line */
 .menu-wrap .hamburger > div {
   position: relative;

@@ -221,3 +221,31 @@
     }
 
 }
+
+@media only screen and (max-width: 350px) {
+    .SG360-features h1 {
+        margin-bottom: 130px;
+    }
+
+    .SG-service .info a {
+       opacity: 1;
+       /* text-decoration: underline; */
+    }
+    .SG-service.SGT .info a {
+        opacity: 1;
+        /* text-decoration: underline; */
+    }
+    
+    .SG-service.SGT .info a i.arrow {
+        padding-left: 1px;
+        align-self: center;
+        text-decoration: none;
+    }
+
+    i.material-icons.arrow {
+        text-decoration: none;
+    }
+    .SG-service.SGT .info, div.SG-service .info {
+        margin-top: 60px;
+    }
+}

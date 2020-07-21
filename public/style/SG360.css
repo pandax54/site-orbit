@@ -239,3 +239,9 @@ a.button.saiba-mais:hover span.arrow svg path {
         
 
   }
+
+  @media only screen and (max-width: 350px) {
+    a.button.saiba-mais {
+        display: none;
+    }
+}

@@ -226,4 +226,16 @@ a.button.saiba-mais:hover span.arrow svg path {
         margin: 0;
     }
 
+    a.button.saiba-mais {
+        /* width: 100%; */
+        min-width: 200px;
+        font-weight: 500;
+        font-size: 18px;
+        padding: 10px 16px;
+    }
+
+    .SG360.qualities-content .qualities-item {
+        margin-bottom: 50px;
+        
+
   }

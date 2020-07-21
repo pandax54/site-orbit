@@ -31,7 +31,11 @@
 }
 
 .presentation-cover .presentation-title span {
-    color: #5E6366;
+    /* color: #5E6366; */
+    background: -webkit-linear-gradient(90deg, #77A7BC 0%, #1D8989 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
 }
 
 .presentation-cover .presentation-title p {
@@ -264,9 +268,15 @@
     
     }
 
-    .presentation-cover .presentation-title {
-        height: auto;
-    
+    .presentation-cover .presentation-title h1 {
+        font-weight: 800;
+        font-size: 36px;
+        width: 500px;
+        line-height: 52px;
+        letter-spacing: 0.02em;
+        margin-bottom: 40px;
+        /* margin-top: 20px; */
+        word-break: keep-all;
     }
 
     .presentation-details-info .presentation-items {
@@ -275,6 +285,59 @@
         display: grid;
         grid-template-columns: 1fr ;
         padding-right: 20px;
+    }
+
+    .presentation-cover .presentation-title p {
+        font-size: 18px;
+        color: #5E6366;
+        width: 300px; 
+    }
+
+    /* //==========  */
+    
+    .presentation-info .title h1 {
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .presentation-details .title h1 {
+        font-size: 36px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .presentation-details-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation-info .info-items {
+        margin-left: 10px;
+    }
+    
+    .presentation-details-info .presentation-details-img {
+        /* position: absolute; */
+        background-image: url('../assets/SG360-service4.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: fill;
+        width: 100%;
+        height: 900px;
+        
+    }
+
+    .presentation-details-info .presentation-items {
+        margin-top: -40px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        /* grid-template-rows: 1fr 1fr ; */
+        margin-bottom: 60px;
+    }
+    
+    .presentation-items .item {
+        /* margin-bottom: 20px; */
+        padding: 20px 40px;
     }
 
 }

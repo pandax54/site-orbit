@@ -68,9 +68,15 @@
     color: white;
     opacity: 0.5;
     margin-top: 10px;
-    display: block;
+    display: flex;
+    align-items: center;
     text-align: left;
     width: 85%;
+}
+
+.SG-service.SGT .info a i.arrow {
+    padding-left: 5px;
+    align-self: center;
 }
 
 .SG-service.SGT .info h1 {
@@ -176,9 +182,15 @@
         color: white;
         opacity: 0.5;
         margin-top: 10px;
-        display: block;
+        display: flex;
+        align-items: center;
         text-align: left;
         width: 85%;
+    }
+    
+    .SG-service.SGT .info a i.arrow {
+        padding-left: 1px;
+        align-self: center;
     }
     
     .SG-service .info h1 {

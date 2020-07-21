@@ -112,6 +112,7 @@ li.button-nav a.button-nav {
     border-radius: 20px;
     /* background-color: var(--bg-black); */
     background-color: white;
+    line-height: 20px;
     opacity: 0.8;
     color: var(--bg-blue);
     /* margin-left: 60px; */
@@ -206,6 +207,7 @@ ul.dropdown li:hover button {
     li.button-nav a.button-nav {
         min-width: 180px;
         margin-left: 60px;
+        display: none;
     }
 
 }

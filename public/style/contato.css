@@ -141,6 +141,10 @@ textarea {
 
 }
 
+.whatsapp {
+  display: none;
+}
+
 @media only screen and (max-width: 920px) {
   .contact-div {
     display: flex;
@@ -161,6 +165,38 @@ textarea {
   }
   .contact-info {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-form {
+    display: none;
+  }
+
+  .whatsapp {
+    display: block;
+    /* background-color: white; */
+    padding: 12px 20px;
+  }
+
+  .whatsapp-btn{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:80px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index:100;
+  }
+  
+  .icon{
+    margin-top:16px;
+    color: white;
   }
 }
 
